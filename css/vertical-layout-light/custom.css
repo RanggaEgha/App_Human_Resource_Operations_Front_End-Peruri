@@ -1,0 +1,812 @@
+   /* Style for table */
+   
+   .table thead th {
+       background-color: #f9f9f9;
+       font-weight: bold;
+       text-align: center;
+   }
+   
+   .table tbody tr td {
+       text-align: center;
+       vertical-align: middle;
+   }
+   
+   .table tbody tr td .action-icons a {
+       margin: 0 5px;
+   }
+   /* Status badge */
+   
+   .status-activated {
+       background-color: #e0f7e9;
+       color: #34a853;
+       border-radius: 15px;
+       padding: 5px 10px;
+       font-size: 0.9rem;
+       display: inline-block;
+   }
+   
+   .status-deactivated {
+       background-color: #fde7e9;
+       color: #ea4335;
+       border-radius: 15px;
+       padding: 5px 10px;
+       font-size: 0.9rem;
+       display: inline-block;
+   }
+   /* Add button */
+   
+   .btn-add {
+       background: #20288E;
+       color: white;
+       border: none;
+       border-radius: 25px;
+       padding: 10px 20px;
+       font-size: 14px;
+       display: flex;
+       align-items: center;
+       gap: 8px;
+       transition: background-color 0.3s;
+   }
+   
+   .btn-add:hover {
+       background: #1a1f6e;
+   }
+   
+   .form-select-sm {
+       padding: 0.25rem 0.5rem;
+   }
+   
+   .form-control-sm {
+       padding: 0.25rem 0.5rem;
+   }
+   /* Search and entries select */
+   
+   .entries-select,
+   .search-control {
+       display: flex;
+       align-items: center;
+   }
+   
+   .search-wrapper {
+       position: relative;
+   }
+   
+   .custom-search-icon {
+       position: absolute;
+       top: 50%;
+       left: 8px;
+       transform: translateY(-50%);
+       color: #999;
+   }
+   
+   .search-input {
+       padding-left: 25px;
+       font-size: 0.9rem;
+   }
+   /* Pagination */
+   
+   .pagination .page-item.active .page-link {
+       background-color: #2b2d9e;
+       border-color: #2b2d9e;
+   }
+   
+   .pagination .page-link {
+       color: #2b2d9e;
+   }
+   /* Responsive adjustments */
+   
+   @media (max-width: 768px) {
+       .table-responsive {
+           overflow-x: auto;
+       }
+       .entries-select,
+       .search-control,
+       .btn-add {
+           width: 100%;
+           justify-content: center;
+           margin-top: 10px;
+       }
+   }
+   /*akhir untuk submenu management */
+   /*awal untuk styling role */
+   /* Table styling */
+   
+   .table thead th {
+       background-color: #f9f9f9;
+       font-weight: bold;
+       text-align: center;
+   }
+   
+   .table tbody tr td {
+       text-align: center;
+       vertical-align: middle;
+   }
+   
+   .table tbody tr td .action-icons a {
+       margin: 0 5px;
+   }
+   /* Add New Role button */
+   
+   .btn-add-role {
+       background: #20288E;
+       color: white;
+       border: none;
+       border-radius: 25px;
+       padding: 10px 20px;
+       font-size: 14px;
+       display: flex;
+       align-items: center;
+       gap: 8px;
+       transition: background-color 0.3s;
+   }
+   
+   .btn-add-role:hover {
+       background: #1a1f6e;
+   }
+   
+   .form-select-sm {
+       padding: 0.25rem 0.5rem;
+   }
+   
+   .form-control-sm {
+       padding: 0.25rem 0.5rem;
+   }
+   /* Custom search and entries styling */
+   
+   .custom-search {
+       display: flex;
+       align-items: center;
+   }
+   
+   .search-wrapper {
+       position: relative;
+   }
+   
+   .custom-search-icon {
+       position: absolute;
+       top: 50%;
+       left: 8px;
+       transform: translateY(-50%);
+       color: #999;
+   }
+   
+   .search-input {
+       padding-left: 25px;
+       font-size: 0.9rem;
+   }
+   /* Pagination */
+   
+   .pagination .page-item.active .page-link {
+       background-color: #2b2d9e;
+       border-color: #2b2d9e;
+   }
+   
+   .pagination .page-link {
+       color: #2b2d9e;
+   }
+   /* Warning Icon Style */
+   
+   .icon-warning {
+       color: #ffa500;
+       /* orange color */
+   }
+   /* akhir style role */
+   /*awal untuk styling data-user */
+   /* Table styling */
+   
+   .table thead th {
+       background-color: #f9f9f9;
+       font-weight: bold;
+       text-align: center;
+   }
+   
+   .table tbody tr td {
+       text-align: center;
+       vertical-align: middle;
+   }
+   
+   .table tbody tr td .action-icons a {
+       margin: 0 5px;
+   }
+   /* Add New Menu button */
+   
+   .btn-add-menu {
+       background-color: #2b2d9e;
+       color: #fff;
+       font-weight: bold;
+       padding: 8px 16px;
+       border-radius: 5px;
+       transition: background-color 0.3s ease;
+       float: right;
+   }
+   
+   .btn-add-menu:hover {
+       background-color: #4d4fda;
+   }
+   /* Custom search and entries styling */
+   
+   .custom-search {
+       display: flex;
+       align-items: center;
+       width: 300px;
+   }
+   
+   .search-wrapper {
+       position: relative;
+       width: 100%;
+   }
+   
+   .custom-search-icon {
+       position: absolute;
+       top: 50%;
+       left: 8px;
+       transform: translateY(-50%);
+       color: #999;
+   }
+   
+   .search-input {
+       padding-left: 25px;
+       font-size: 0.9rem;
+       width: 100%;
+   }
+   /* Pagination */
+   
+   .pagination .page-item.active .page-link {
+       background-color: #2b2d9e;
+       border-color: #2b2d9e;
+   }
+   
+   .pagination .page-link {
+       color: #2b2d9e;
+   }
+   /* Image column styling */
+   
+   .profile-image {
+       width: 40px;
+       height: 40px;
+       border-radius: 50%;
+       object-fit: cover;
+   }
+   
+   .btn-add-user {
+       background: #20288E;
+       color: white;
+       border: none;
+       border-radius: 25px;
+       padding: 10px 20px;
+       font-size: 14px;
+       display: flex;
+       align-items: center;
+       gap: 8px;
+       transition: background-color 0.3s;
+   }
+   
+   .btn-add-user:hover {
+       background: #1a1f6e;
+   }
+   
+   .form-select-sm {
+       padding: 0.25rem 0.5rem;
+   }
+   
+   .form-control-sm {
+       padding: 0.25rem 0.5rem;
+   }
+   /* akhir style KONTORLS style */
+   /* awal style MONITORING style */
+   /* Styling untuk header controls di kiri atas */
+   
+   .header-controls-container {
+       display: flex;
+       justify-content: space-between;
+       gap: 10px;
+       margin-top: -20px;
+       padding: 10px;
+       align-items: center;
+       flex-wrap: wrap;
+       /* Tambahkan flex-wrap agar elemen bisa berpindah baris */
+   }
+   
+   .header-controls-left {
+       display: flex;
+       gap: 10px;
+   }
+   
+   .btn-sort,
+   .btn-import {
+       background-color: #FFFFFF;
+       color: #000;
+       border-radius: 8px;
+       font-weight: 100;
+       font-size: small;
+       padding: 5px 15px;
+       box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+       display: inline-flex;
+       align-items: center;
+       gap: 5px;
+       transition: background-color 0.3s ease;
+       border: none;
+   }
+   
+   .btn-sort:hover,
+   .btn-import:hover {
+       background-color: #999;
+       color: #fff;
+   }
+   
+   .btn-sort i,
+   .btn-import i {
+       margin-right: 5px;
+   }
+   
+   .btn-import img {
+       margin-left: 2px;
+       /* Jarak antara teks dan ikon */
+   }
+   /* Styling tombol Add New PRD di kanan atas konten utama */
+   
+   .date-filter {
+       display: flex;
+       align-items: center;
+       gap: 8px;
+   }
+   
+   #dateFilter {
+       width: 150px;
+   }
+   /* Export Buttons Wrapper */
+   
+   .export-buttons-wrapper {
+       display: flex;
+       align-items: center;
+       background-color: #E4E0E1;
+       /* Warna background yang lembut */
+       padding: 1px 5px;
+       border-radius: 8px;
+       box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+       transition: background-color 0.3s;
+   }
+   
+   .export-buttons-wrapper:hover {
+       background-color: #e9ecef;
+       /* Warna saat di-hover */
+   }
+   /* Export Text */
+   
+   .export-text {
+       font-weight: bold;
+       font-size: 0.95rem;
+       color: #343a40;
+       /* Warna teks */
+   }
+   /* Export Icons */
+   
+   .export-icons {
+       display: flex;
+       align-items: center;
+   }
+   
+   .export-icon {
+       font-size: 1.2rem;
+       color: #6c757d;
+       /* Warna default ikon */
+       cursor: pointer;
+       transition: transform 0.3s, color 0.3s;
+   }
+   
+   .export-icon:hover {
+       transform: scale(1.5);
+       /* Efek zoom saat di-hover */
+       color: #495057;
+       /* Warna ikon saat di-hover */
+   }
+   /* Specific Icon Colors */
+   
+   .export-icons a {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin-right: 8px;
+       transition: transform 0.3s;
+   }
+   
+   .export-icons a:hover {
+       transform: scale(1.5);
+       /* Membuat ikon sedikit lebih besar saat di-hover */
+   }
+   
+   .btn-add-prd {
+       background-color: #2b2d9e;
+       color: white;
+       margin-left: 13px;
+       border-radius: 8px;
+       font-weight: 100;
+       font-size: small;
+       padding: 7px 15px;
+       box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+       display: inline-flex;
+       align-items: center;
+       gap: 5px;
+       transition: background-color 0.3s ease;
+       border: none;
+       float: right;
+   }
+   
+   .btn-add-prd:hover {
+       background-color: #1a1c7a;
+   }
+   /* Alert styling di kanan atas */
+   /* New Styles for Dropdowns and Button */
+   
+   .dropdown-container {
+       display: flex;
+       gap: 10px;
+       align-items: center;
+   }
+   
+   .dropdown-filter {
+       width: 90px !important;
+       padding: 8px;
+       border: none;
+       border-radius: 10px;
+       background-color: #f8f8f8;
+       font-size: 14px;
+       font-weight: 500;
+       color: #666;
+       text-align: center;
+   }
+   
+   .dropdown-filter,
+   #dateFilter {
+       width: 130px;
+       /* Adjust width as needed */
+       padding: 8px 10px;
+       /* Padding for top/bottom and left/right */
+       font-size: 16px;
+       color: #666;
+       border: none;
+       border-radius: 10px;
+       background-color: #ffffff;
+       box-sizing: border-box;
+   }
+   
+   .btn-tampilkan-data {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       padding: 10px 15px;
+       background-color: #1A237E;
+       color: white;
+       font-size: 11px;
+       font-weight: 500;
+       border: none;
+       border-radius: 15px;
+       cursor: pointer;
+   }
+   
+   .btn-tampilkan-data i {
+       margin-left: 8px;
+   }
+   
+   .alert-container {
+       text-align: right;
+       margin-bottom: 20px;
+   }
+   
+   .alert-info {
+       background-color: #FFFFFF !important;
+       color: #F3C623 !important;
+       padding: 10px 20px;
+       font-size: 0.7rem;
+       border-radius: 8px;
+       display: inline-flex;
+       align-items: center;
+       gap: 10px;
+       font-weight: bold;
+   }
+   
+   .alert-info i {
+       font-size: 0.9rem;
+   }
+   /* Table styling */
+   
+   .table thead th {
+       background-color: #f9f9f9;
+       font-weight: bold;
+       text-align: center;
+   }
+   
+   .table tbody tr td {
+       text-align: center;
+       vertical-align: middle;
+   }
+   
+   .table-striped tbody tr:nth-of-type(odd) {
+       background-color: #f7f7ff;
+   }
+   
+   .table tbody tr td .action-icons a {
+       margin: 0 5px;
+   }
+   /* Tambahan Spesifik untuk Teks "entries" */
+   
+   .select-entries span {
+       margin-left: 8px;
+       /* Jarak lebih jelas antara dropdown dan teks "entries" */
+       white-space: nowrap;
+       /* Mencegah teks "entries" membungkus ke baris baru */
+   }
+   /* Search, Entries, and Export */
+   
+   .select-entries label {
+       margin-right: 4px;
+       margin-bottom: 2px;
+       /* Jarak kecil antara teks "Show" dan dropdown */
+   }
+   
+   .select-entries select {
+       width: auto;
+       /* Mengatur lebar dropdown sesuai konten */
+   }
+   
+   .table-controls {
+       display: flex;
+       justify-content: space-between;
+       flex-wrap: wrap;
+       /* Memungkinkan elemen berpindah ke baris baru jika ruang tidak cukup */
+       gap: 8px;
+       /* Jarak antar elemen */
+       align-items: center;
+       margin-bottom: 10px;
+   }
+   
+   .custom-search {
+       display: flex;
+       align-items: center;
+       width: 300px;
+   }
+   
+   .search-wrapper {
+       position: relative;
+       width: 100%;
+   }
+   
+   .custom-search-icon {
+       position: absolute;
+       top: 50%;
+       left: 8px;
+       transform: translateY(-50%);
+       color: #999;
+   }
+   
+   .search-input {
+       padding-left: 25px;
+       font-size: 0.9rem;
+       width: 100%;
+   }
+   /* Atur Lebar dan Jarak Elemen */
+   
+   .select-entries {
+       display: flex;
+       flex-direction: column;
+       /* Menyusun elemen di dalamnya secara vertikal */
+       align-items: flex-start;
+       /* Rata kiri untuk elemen di dalam */
+       gap: 4px;
+       /* Jarak antara dropdown dan teks "entries" */
+   }
+   
+   .export-buttons i {
+       font-size: 1.2rem;
+       margin-left: 10px;
+       color: #2b2d9e;
+       cursor: pointer;
+   }
+   /* Pagination */
+   
+   .pagination .page-item.active .page-link {
+       background-color: #2b2d9e;
+       border-color: #2b2d9e;
+   }
+   
+   .pagination .page-link {
+       color: #2b2d9e;
+   }
+   /* Responsif untuk layar kecil (tablet & mobile) */
+   
+   @media (max-width: 768px) {
+       .header-controls-container {
+           flex-direction: column;
+           /* Membuat elemen menumpuk secara vertikal */
+           align-items: flex-start;
+       }
+       .header-controls-left,
+       .alert-container {
+           width: 100%;
+       }
+       .header-controls-left {
+           justify-content: space-between;
+           gap: 10px;
+       }
+       /* Date Filter Responsiveness */
+       .date-filter label,
+       .date-filter input {
+           font-size: 0.9rem;
+           width: 100%;
+           /* Atur input tanggal agar mengambil lebar penuh */
+       }
+       /* Import Button */
+       .btn-import {
+           width: 100%;
+           /* Lebar penuh untuk tombol import */
+           justify-content: center;
+           /* Pusatkan isi */
+       }
+       .btn-import img {
+           width: 18px;
+           height: 18px;
+       }
+   }
+   /* Responsif untuk layar ekstra kecil (smartphone) */
+   
+   @media (max-width: 480px) {
+       .header-controls-container {
+           padding: 8px;
+           margin-top: 10px;
+           gap: 8px;
+       }
+       .header-controls-left {
+           flex-direction: column;
+           align-items: flex-start;
+           gap: 8px;
+       }
+       /* Atur ukuran teks dan ikon */
+       .date-filter label {
+           font-size: 0.8rem;
+       }
+       #dateFilter {
+           width: 100%;
+           /* Lebar penuh untuk input tanggal */
+       }
+       .btn-import img {
+           width: 16px;
+           height: 16px;
+       }
+       .alert-container {
+           font-size: 0.85rem;
+           text-align: left;
+           width: 100%;
+       }
+   }
+   /* Responsif untuk Layar Kecil */
+   
+   @media (max-width: 768px) {
+       .table-controls {
+           flex-direction: column;
+           /* Ubah ke kolom di layar kecil */
+           align-items: flex-start;
+           gap: 12px;
+       }
+       .select-entries,
+       .custom-search,
+       .export-buttons-wrapper {
+           width: 100%;
+           justify-content: flex-start;
+           /* Lebar penuh untuk elemen */
+       }
+       .select-entries {
+           margin-bottom: 8px;
+           /* Jarak antara dropdown dan elemen berikutnya */
+       }
+       .export-buttons-wrapper {
+           display: flex;
+           gap: 8px;
+           /* Jarak antar ikon di export buttons */
+           justify-content: flex-start;
+       }
+   }
+   /* Responsif untuk Layar Sangat Kecil (Smartphone) */
+   
+   @media (max-width: 480px) {
+       .table-controls {
+           padding: 4px;
+           gap: 8px;
+       }
+       .export-buttons-wrapper {
+           gap: 4px;
+           /* Jarak antar ikon untuk menghemat ruang di layar kecil */
+       }
+       .select-entries,
+       .custom-search,
+       .export-buttons-wrapper {
+           width: 100%;
+       }
+       .select-entries label,
+       .custom-search label {
+           font-size: 0.9rem;
+           /* Sesuaikan ukuran font di layar kecil */
+       }
+       .custom-search {
+           width: 100%;
+           display: flex;
+           justify-content: space-between;
+       }
+       .search-input {
+           flex-grow: 1;
+           margin-right: 4px;
+           /* Jarak antara input dan ikon pencarian */
+       }
+   }
+   /* Responsif untuk layar kecil (opsional) */
+   
+   @media (max-width: 480px) {
+       .select-entries {
+           gap: 4px;
+           /* Sesuaikan jarak untuk layar sangat kecil */
+       }
+       .select-entries span {
+           font-size: 0.9rem;
+           /* Ukuran teks lebih kecil di layar kecil */
+       }
+   }
+   /* Responsif untuk layar sangat kecil (320px lebar viewport atau lebih kecil) */
+   
+   @media (max-width: 320px) {
+       .table-controls {
+           flex-direction: column;
+           /* Menyusun elemen secara vertikal */
+           align-items: flex-start;
+           gap: 12px;
+           /* Jarak antar elemen lebih besar untuk layar kecil */
+       }
+       /* Susun dropdown dan teks "entries" secara vertikal */
+       .select-entries {
+           display: flex;
+           flex-direction: column;
+           align-items: flex-start;
+           gap: 4px;
+           /* Jarak antara dropdown dan teks "entries" */
+       }
+       /* Lebar penuh untuk elemen dropdown dan teks "entries" */
+       .select-entries label,
+       .select-entries select,
+       .select-entries span {
+           width: 100%;
+           /* Memastikan elemen di dalam select-entries memenuhi lebar penuh */
+       }
+       /* Lebar penuh untuk tombol */
+       .btn {
+           width: 100%;
+           /* Tombol Add New PRD memiliki lebar penuh */
+           display: flex;
+           justify-content: center;
+           /* Teks di tengah */
+       }
+       /* Lebar penuh untuk notifikasi */
+       .alert-container {
+           width: 100%;
+           text-align: center;
+           font-size: 0.9rem;
+       }
+       /* Kotak Pencarian */
+       .custom-search {
+           width: 100%;
+           /* Lebar penuh untuk pencarian */
+           display: flex;
+           justify-content: space-between;
+           gap: 8px;
+       }
+       /* Lebar penuh untuk bagian tombol ekspor */
+       .export-buttons-wrapper {
+           width: 100%;
+           display: flex;
+           justify-content: flex-start;
+           gap: 8px;
+       }
+       /* Ukuran font yang lebih kecil untuk teks "entries" dan tombol import */
+       .select-entries label,
+       .custom-search label,
+       .btn-import {
+           font-size: 0.85rem;
+       }
+   }

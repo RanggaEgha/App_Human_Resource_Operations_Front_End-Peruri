@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Master Kategori</title>
+    <!-- plugins:css -->
+    <!-- Material Design Icons CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css" rel="stylesheet" />
+
+    <!-- Pastikan juga Anda sudah menyertakan Bootstrap CSS jika belum -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" />
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+    <!-- Google Fonts: Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Vendor CSS Files -->
+    <link rel="stylesheet" href="../../vendors/feather/feather.css" />
+    <link rel="stylesheet" href="../../vendors/mdi/css/materialdesignicons.min.css" />
+    <link rel="stylesheet" href="../../vendors/ti-icons/css/themify-icons.css" />
+    <link rel="stylesheet" href="../../vendors/typicons/typicons.css" />
+    <link rel="stylesheet" href="../../vendors/simple-line-icons/css/simple-line-icons.css" />
+    <link rel="stylesheet" href="../../vendors/css/vendor.bundle.base.css" />
+
+    <!-- Plugin css for this page -->
+    <link rel="stylesheet" href="../../vendors/datatables.net-bs4/dataTables.bootstrap4.css" />
+    <link rel="stylesheet" href="../../js/select.dataTables.min.css" />
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="../../css/vertical-layout-light/style.css" />
+    <link rel="stylesheet" href="../../css/vertical-layout-light/custom.css" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../../images/Logo.svg" />
+</head>
+
+<body>
+    <div class="container-scroller">
+        <!-- partial:partials/_navbar.html -->
+        <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex align-items-top flex-row">
+            <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-start">
+                <div class="me-3">
+                    <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-bs-toggle="minimize">
+              <span class="icon-menu"></span>
+            </button>
+                </div>
+                <div>
+                    <a class="navbar-brand brand-logo" href="../../index.html">
+                        <img src="../../images/logo-dark.svg" alt="logo" />
+                    </a>
+                    <a class="navbar-brand brand-logo-mini" href="../../index.html">
+                        <img src="../../images/PERURI MASTER LOGOGRAM (WARNA).svg" alt="logo" />
+                    </a>
+                </div>
+            </div>
+            <div class="navbar-menu-wrapper d-flex align-items-top">
+                <ul class="navbar-nav">
+                    <li class="nav-item font-weight-semibold d-none d-lg-block ms-0">
+                        <div class="d-flex align-items-center">
+                            <!-- Use img tag to display SVG file -->
+                            <img src="../../images/file-icons/icon/icon-profile.png" alt="Icon" class="me-2" style="width: 25px;" />
+                            <h1 class="h3 mb-0" style="
+                    background: linear-gradient(
+                      180deg,
+                      #20288e 0%,
+                      #0083ff 100%
+                    );
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                    color: transparent;
+                  ">
+                                Master Kategori
+                            </h1>
+                        </div>
+                        <!-- Add top margin for spacing -->
+                        <h3 class="h6 text-muted mt-3">
+                            Tambahkan Data Pengguna Kredit!
+                        </h3>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link count-indicator" id="notificationDropdown" href="#" data-bs-toggle="dropdown">
+                            <i class="icon-mail icon-lg"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list pb-0" aria-labelledby="notificationDropdown">
+                            <a class="dropdown-item py-3 border-bottom">
+                                <p class="mb-0 font-weight-medium float-left">
+                                    You have 4 new notifications
+                                </p>
+                                <span class="badge badge-pill badge-primary float-right">
+                    View all
+                  </span>
+                            </a>
+                            <!-- Notification Items -->
+                            <a class="dropdown-item preview-item py-3">
+                                <div class="preview-thumbnail">
+                                    <i class="mdi mdi-alert m-auto text-primary"></i>
+                                </div>
+                                <div class="preview-item-content">
+                                    <h6 class="preview-subject fw-normal text-dark mb-1">
+                                        Application Error
+                                    </h6>
+                                    <p class="fw-light small-text mb-0">Just now</p>
+                                </div>
+                            </a>
+                            <a class="dropdown-item preview-item py-3">
+                                <div class="preview-thumbnail">
+                                    <i class="mdi mdi-settings m-auto text-primary"></i>
+                                </div>
+                                <div class="preview-item-content">
+                                    <h6 class="preview-subject fw-normal text-dark mb-1">
+                                        Settings
+                                    </h6>
+                                    <p class="fw-light small-text mb-0">Private message</p>
+                                </div>
+                            </a>
+                            <a class="dropdown-item preview-item py-3">
+                                <div class="preview-thumbnail">
+                                    <i class="mdi mdi-airballoon m-auto text-primary"></i>
+                                </div>
+                                <div class="preview-item-content">
+                                    <h6 class="preview-subject fw-normal text-dark mb-1">
+                                        New user registration
+                                    </h6>
+                                    <p class="fw-light small-text mb-0">2 days ago</p>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <!-- Other nav items -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link count-indicator" id="countDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="icon-bell"></i>
+                            <span class="count"></span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list pb-0" aria-labelledby="countDropdown">
+                            <a class="dropdown-item py-3">
+                                <p class="mb-0 font-weight-medium float-left">
+                                    You have 7 unread mails
+                                </p>
+                                <span class="badge badge-pill badge-primary float-right">
+                    View all
+                  </span>
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <!-- Mail Items -->
+                            <a class="dropdown-item preview-item">
+                                <div class="preview-thumbnail">
+                                    <img src="../../images/faces/face10.jpg" alt="image" class="img-sm profile-pic" />
+                                </div>
+                                <div class="preview-item-content flex-grow py-2">
+                                    <p class="preview-subject ellipsis font-weight-medium text-dark">
+                                        Marian Garner
+                                    </p>
+                                    <p class="fw-light small-text mb-0">
+                                        The meeting is cancelled
+                                    </p>
+                                </div>
+                            </a>
+                            <a class="dropdown-item preview-item">
+                                <div class="preview-thumbnail">
+                                    <img src="../../images/faces/face12.jpg" alt="image" class="img-sm profile-pic" />
+                                </div>
+                                <div class="preview-item-content flex-grow py-2">
+                                    <p class="preview-subject ellipsis font-weight-medium text-dark">
+                                        David Grey
+                                    </p>
+                                    <p class="fw-light small-text mb-0">
+                                        The meeting is cancelled
+                                    </p>
+                                </div>
+                            </a>
+                            <a class="dropdown-item preview-item">
+                                <div class="preview-thumbnail">
+                                    <img src="../../images/faces/face1.jpg" alt="image" class="img-sm profile-pic" />
+                                </div>
+                                <div class="preview-item-content flex-grow py-2">
+                                    <p class="preview-subject ellipsis font-weight-medium text-dark">
+                                        Travis Jenkins
+                                    </p>
+                                    <p class="fw-light small-text mb-0">
+                                        The meeting is cancelled
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown d-none d-lg-block user-dropdown">
+                        <a class="nav-link" id="UserDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img class="img-md rounded-circle" src="../../images/faces/face8.jpg" alt="Profile image" style="width: 45px; height: 45px;" />
+                        </a>
+
+                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
+                            <div class="dropdown-header text-center">
+                                <img class="img-md rounded-circle" src="../../images/faces/face8.jpg" alt="Profile image" />
+                                <p class="mb-1 mt-3 font-weight-semibold">Allen Moreno</p>
+                                <p class="fw-light text-muted mb-0">allenmoreno@gmail.com</p>
+                            </div>
+                            <!-- User Dropdown Items -->
+                            <a class="dropdown-item">
+                                <i class="dropdown-item-icon mdi mdi-account-outline text-primary me-2"></i> My Profile
+                                <span class="badge badge-pill badge-danger">1</span>
+                            </a>
+                            <a class="dropdown-item">
+                                <i class="dropdown-item-icon mdi mdi-message-text-outline text-primary me-2"></i> Messages
+                            </a>
+                            <a class="dropdown-item">
+                                <i class="dropdown-item-icon mdi mdi-calendar-check-outline text-primary me-2"></i> Activity
+                            </a>
+                            <a class="dropdown-item">
+                                <i class="dropdown-item-icon mdi mdi-help-circle-outline text-primary me-2"></i> FAQ
+                            </a>
+                            <a class="dropdown-item">
+                                <i class="dropdown-item-icon mdi mdi-power text-primary me-2"></i> Sign Out
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+                <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-bs-toggle="offcanvas">
+            <span class="mdi mdi-menu"></span>
+          </button>
+            </div>
+        </nav>
+        <!-- partial -->
+        <div class="container-fluid page-body-wrapper">
+            <!-- partial:partials/_settings-panel.html -->
+            <div class="theme-setting-wrapper">
+                <div id="settings-trigger"><i class="ti-settings"></i></div>
+                <div id="theme-settings" class="settings-panel">
+                    <i class="settings-close ti-close"></i>
+                    <p class="settings-heading">SIDEBAR SKINS</p>
+                    <div class="sidebar-bg-options selected" id="sidebar-light-theme">
+                        <div class="img-ss rounded-circle bg-light border me-3"></div>
+                        Light
+                    </div>
+                    <div class="sidebar-bg-options" id="sidebar-dark-theme">
+                        <div class="img-ss rounded-circle bg-dark border me-3"></div>
+                        Dark
+                    </div>
+                    <p class="settings-heading mt-2">HEADER SKINS</p>
+                    <div class="color-tiles mx-0 px-4">
+                        <div class="tiles success"></div>
+                        <div class="tiles warning"></div>
+                        <div class="tiles danger"></div>
+                        <div class="tiles info"></div>
+                        <div class="tiles dark"></div>
+                        <div class="tiles default"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="right-sidebar" class="settings-panel">
+                <i class="settings-close ti-close"></i>
+                <ul class="nav nav-tabs border-top" id="setting-panel" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="todo-tab" data-bs-toggle="tab" href="#todo-section" role="tab" aria-controls="todo-section" aria-expanded="true">
+                TO DO LIST
+              </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="chats-tab" data-bs-toggle="tab" href="#chats-section" role="tab" aria-controls="chats-section">
+                CHATS
+              </a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="setting-content">
+                    <div class="tab-pane fade show active scroll-wrapper" id="todo-section" role="tabpanel" aria-labelledby="todo-section">
+                        <div class="add-items d-flex px-3 mb-0">
+                            <form class="form w-100">
+                                <div class="form-group d-flex">
+                                    <input type="text" class="form-control todo-list-input" placeholder="Add To-do" />
+                                    <button type="submit" class="add btn btn-primary todo-list-add-btn" id="add-task">
+                      Add
+                    </button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="list-wrapper px-3">
+                            <ul class="d-flex flex-column-reverse todo-list">
+                                <li>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                        <input class="checkbox" type="checkbox" />
+                        Team review meeting at 3.00 PM
+                      </label>
+                                    </div>
+                                    <i class="remove ti-close"></i>
+                                </li>
+                                <li>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                        <input class="checkbox" type="checkbox" />
+                        Prepare for presentation
+                      </label>
+                                    </div>
+                                    <i class="remove ti-close"></i>
+                                </li>
+                                <li>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                        <input class="checkbox" type="checkbox" />
+                        Resolve all the low priority tickets due today
+                      </label>
+                                    </div>
+                                    <i class="remove ti-close"></i>
+                                </li>
+                                <li class="completed">
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                        <input class="checkbox" type="checkbox" checked />
+                        Schedule meeting for next week
+                      </label>
+                                    </div>
+                                    <i class="remove ti-close"></i>
+                                </li>
+                                <li class="completed">
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                        <input class="checkbox" type="checkbox" checked />
+                        Project review
+                      </label>
+                                    </div>
+                                    <i class="remove ti-close"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <h4 class="px-3 text-muted mt-5 fw-light mb-0">Events</h4>
+                        <div class="events pt-4 px-3">
+                            <div class="wrapper d-flex mb-2">
+                                <i class="ti-control-record text-primary me-2"></i>
+                                <span>Feb 11 2018</span>
+                            </div>
+                            <p class="mb-0 font-weight-thin text-gray">
+                                Creating component page build a js
+                            </p>
+                            <p class="text-gray mb-0">The total number of sessions</p>
+                        </div>
+                        <div class="events pt-4 px-3">
+                            <div class="wrapper d-flex mb-2">
+                                <i class="ti-control-record text-primary me-2"></i>
+                                <span>Feb 7 2018</span>
+                            </div>
+                            <p class="mb-0 font-weight-thin text-gray">
+                                Meeting with Alisa
+                            </p>
+                            <p class="text-gray mb-0">Call Sarah Graves</p>
+                        </div>
+                    </div>
+                    <!-- To do section tab ends -->
+                    <div class="tab-pane fade" id="chats-section" role="tabpanel" aria-labelledby="chats-section">
+                        <div class="d-flex align-items-center justify-content-between border-bottom">
+                            <p class="settings-heading border-top-0 mb-3 pl-3 pt-0 border-bottom-0 pb-0">
+                                Friends
+                            </p>
+                            <small class="settings-heading border-top-0 mb-3 pt-0 border-bottom-0 pb-0 pr-3 fw-normal">
+                  See All
+                </small>
+                        </div>
+                        <ul class="chat-list">
+                            <li class="list active">
+                                <div class="profile">
+                                    <img src="../../images/faces/face1.jpg" alt="image" />
+                                    <span class="online"></span>
+                                </div>
+                                <div class="info">
+                                    <p>Thomas Douglas</p>
+                                    <p>Available</p>
+                                </div>
+                                <small class="text-muted my-auto">19 min</small>
+                            </li>
+                            <li class="list">
+                                <div class="profile">
+                                    <img src="../../images/faces/face2.jpg" alt="image" />
+                                    <span class="offline"></span>
+                                </div>
+                                <div class="info">
+                                    <div class="wrapper d-flex">
+                                        <p>Catherine</p>
+                                    </div>
+                                    <p>Away</p>
+                                </div>
+                                <div class="badge badge-success badge-pill my-auto mx-2">
+                                    4
+                                </div>
+                                <small class="text-muted my-auto">23 min</small>
+                            </li>
+                            <li class="list">
+                                <div class="profile">
+                                    <img src="../../images/faces/face3.jpg" alt="image" />
+                                    <span class="online"></span>
+                                </div>
+                                <div class="info">
+                                    <p>Daniel Russell</p>
+                                    <p>Available</p>
+                                </div>
+                                <small class="text-muted my-auto">14 min</small>
+                            </li>
+                            <li class="list">
+                                <div class="profile">
+                                    <img src="../../images/faces/face4.jpg" alt="image" />
+                                    <span class="offline"></span>
+                                </div>
+                                <div class="info">
+                                    <p>James Richardson</p>
+                                    <p>Away</p>
+                                </div>
+                                <small class="text-muted my-auto">2 min</small>
+                            </li>
+                            <li class="list">
+                                <div class="profile">
+                                    <img src="../../images/faces/face5.jpg" alt="image" />
+                                    <span class="online"></span>
+                                </div>
+                                <div class="info">
+                                    <p>Madeline Kennedy</p>
+                                    <p>Available</p>
+                                </div>
+                                <small class="text-muted my-auto">5 min</small>
+                            </li>
+                            <li class="list">
+                                <div class="profile">
+                                    <img src="../../images/faces/face6.jpg" alt="image" />
+                                    <span class="online"></span>
+                                </div>
+                                <div class="info">
+                                    <p>Sarah Graves</p>
+                                    <p>Available</p>
+                                </div>
+                                <small class="text-muted my-auto">47 min</small>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- chat tab ends -->
+                </div>
+            </div>
+            <!-- partial -->
+            <!-- partial:partials/_sidebar.html -->
+            <nav class="sidebar sidebar-offcanvas" id="sidebar">
+                <ul class="nav">
+                    <li class="nav-item nav-category">Admin</li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../index.html">
+                            <i class="mdi mdi-home menu-icon"></i>
+                            <span class="menu-title">Dashboard</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item nav-category">User</li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../my-profile/my-profile.html">
+                            <i class="mdi mdi-account menu-icon"></i>
+                            <span class="menu-title">My Profile</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item nav-category">Controls</li>
+                    <li class="nav-item mt-3">
+                        <a class="nav-link" data-bs-toggle="collapse" href="#super-admin-menu" aria-expanded="false" aria-controls="super-admin-menu">
+                            <i class="menu-icon mdi mdi-account-key"></i>
+                            <span class="menu-title">Access Super-Admin</span>
+                            <i class="menu-arrow"></i>
+                        </a>
+                        <div class="collapse" id="super-admin-menu" style="padding-left: 20px;">
+                            <ul class="nav flex-column sub-menu" style="
+                    list-style-type: none;
+                    padding-left: 0;
+                    margin-left: 0;
+                  ">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../controls/menu-management.html" style="display: flex; align-items: center;">
+                                        <i class="mdi mdi-folder-outline" style="padding-left: 8px; margin-right: 8px;"></i> Menu Management
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../controls/submenu-management.html" style="display: flex; align-items: center;">
+                                        <i class="mdi mdi-folder-open-outline" style="padding-left: 8px; margin-right: 8px;"></i> Submenu Management
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../controls/role.html" style="display: flex; align-items: center;">
+                                        <i class="mdi mdi-shield-account-outline" style="padding-left: 8px; margin-right: 8px;"></i> Role
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../controls/data-user.html" style="display: flex; align-items: center;">
+                                        <i class="mdi mdi-account-group-outline" style="padding-left: 8px; margin-right: 8px;"></i> Data User
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="nav-item nav-category">Monitoring</li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="collapse" href="#master-data" aria-expanded="true" aria-controls="master-data">
+                            <i class="menu-icon mdi mdi-database"></i>
+                            <span class="menu-title">Master Data</span>
+                            <i class="menu-arrow"></i>
+                        </a>
+                        <div class="collapse show" id="master-data" style="padding-left: 20px;">
+                            <ul class="nav flex-column sub-menu" style="
+                    list-style-type: none;
+                    padding-left: 0;
+                    margin-left: 0;
+                  ">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="master-listrik.html" style="display: flex; align-items: center;">
+                                        <i class="mdi mdi-flash" style="padding-left: 8px; margin-right: 8px;"></i> Master Listrik
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="master-pulsa.html" style="display: flex; align-items: center;">
+                                        <i class="mdi mdi-cellphone" style="padding-left: 8px; margin-right: 8px;"></i> Master Pulsa
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="master-air.html" style="display: flex; align-items: center;">
+                                        <i class="mdi mdi-water" style="padding-left: 8px; margin-right: 8px;"></i> Master Air
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="master-kredit.html" style="display: flex; align-items: center;">
+                                        <i class="mdi mdi-credit-card" style="padding-left: 8px; margin-right: 8px;"></i> Master Kredit
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="master-kategori.html" style="display: flex; align-items: center;">
+                                        <i class="mdi mdi-view-grid" style="padding-left: 8px; margin-right: 8px;"></i> Master Kategori
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="nav-item nav-category">Report</li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="collapse" href="#laporan" aria-expanded="false" aria-controls="laporan">
+                            <i class="menu-icon mdi mdi-file-chart"></i>
+                            <span class="menu-title">Laporan</span>
+                            <i class="menu-arrow"></i>
+                        </a>
+                        <div class="collapse" id="laporan" style="padding-left: 20px;">
+                            <ul class="nav flex-column sub-menu" style="
+                    list-style-type: none;
+                    padding-left: 0;
+                    margin-left: 0;
+                  ">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../report/report-listrik.html" style="display: flex; align-items: center;">
+                                        <i class="mdi mdi-chart-bar" style="padding-left: 8px; margin-right: 8px;"></i> Report Listrik
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../report/report-pulsa.html" style="display: flex; align-items: center;">
+                                        <i class="mdi mdi-swap-horizontal" style="padding-left: 8px; margin-right: 8px;"></i> Report Pulsa
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../report/report-air.html" style="display: flex; align-items: center;">
+                                        <i class="mdi mdi-water-percent" style="padding-left: 8px; margin-right: 8px;"></i> Report Air
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../report/report-kredit.html" style="display: flex; align-items: center;">
+                                        <i class="mdi mdi-credit-card" style="padding-left: 8px; margin-right: 8px;"></i> Report Kredit
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="nav-item nav-category">Money Management</li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="collapse" href="#keuangan" aria-expanded="false" aria-controls="keuangan">
+                            <i class="menu-icon mdi mdi-cash-multiple"></i>
+                            <span class="menu-title">Keuangan</span>
+                            <i class="menu-arrow"></i>
+                        </a>
+                        <div class="collapse" id="keuangan" style="padding-left: 20px;">
+                            <ul class="nav flex-column sub-menu" style="
+                    list-style-type: none;
+                    padding-left: 0;
+                    margin-left: 0;
+                  ">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../money-management/pemakaian-listrik.html" style="display: flex; align-items: center;">
+                                        <i class="mdi mdi-chart-bar" style="padding-left: 8px; margin-right: 8px;"></i> Pemakaian Listrik
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../money-management/pemakaian-pulsa.html" style="display: flex; align-items: center;">
+                                        <i class="mdi mdi-swap-horizontal" style="padding-left: 8px; margin-right: 8px;"></i> Pemakaian Pulsa
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../money-management/pemakaian-air.html" style="display: flex; align-items: center;">
+                                        <i class="mdi mdi-water" style="padding-left: 8px; margin-right: 8px;"></i> Pemakaian Air
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../money-management/pemakaian-kredit.html" style="display: flex; align-items: center;">
+                                        <i class="mdi mdi-credit-card" style="padding-left: 8px; margin-right: 8px;"></i> Pemakaian Kredit
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <!-- partial -->
+            <div class="main-panel">
+                <div class="content-wrapper">
+                    <!-- Header Controls di kiri atas -->
+                    <div class="header-controls-container">
+                        <div class="header-controls-left">
+                            <!-- Import Button with SVG Icon -->
+                            <button class="btn-import">
+                  import
+                  <img
+                    src="/images/file-icons/icon-svg/solar_import-outline.svg"
+                    alt="Import Icon"
+                    width="20"
+                    height="20"
+                  />
+                </button>
+                        </div>
+
+                        <!-- Alert di kanan atas -->
+                        <div class="alert-container">
+                            <span class="alert-info">
+                  <i class="fas fa-exclamation-circle"></i>
+                  Menampilkan Data PRD Bulan 02 Tahun 2023
+                </span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 grid-margin stretch-card mt-4 mt-md-0">
+                        <div class="card">
+                            <div class="card-body">
+                                <!-- Tombol Add New PRD di kanan atas konten utama -->
+                                <button class="btn-add-prd">
+                    <i class="fas fa-plus"></i>
+                    Add New Katgori
+                  </button>
+
+                                <!-- Table Controls -->
+                                <div class="table-controls">
+                                    <div class="d-flex align-items-center">
+                                        <label for="ktgrShowingText" class="me-2">Show</label>
+
+                                        <select class="select-entries form-select form-select-sm" id="ktgrEntriesSelect" aria-label="Select number of entries">
+                        <option>5</option>
+                        <option>10</option>
+                        <option>25</option>
+                        <option>50</option>
+                        <option>100</option>
+                      </select>
+                                        <label class="ms-2"></label>
+                                    </div>
+
+                                    <div class="custom-search">
+                                        <div class="search-wrapper">
+                                            <i class="fas fa-search custom-search-icon"></i>
+                                            <input type="text" id="ktgrSearchInput" class="search-input form-control form-control-sm" placeholder="Search..." />
+                                        </div>
+                                    </div>
+
+                                    <!-- Export Section with Image Icons -->
+                                    <div class="export-buttons-wrapper">
+                                        <img src="/images/file-icons/icon-svg/icon-export-outline.svg" alt="Export Icon" class="export-icon me-4" title="Export" width="20" height="20" />
+                                        <div class="export-icons">
+                                            <!-- PDF Export Icon -->
+                                            <a href="path/to/export.pdf" class="export-icon pdf-icon" title="Export as PDF" target="_blank">
+                                                <img src="/images/file-icons/icon-svg/icon-pdf.svg" alt="PDF Icon" width="17" height="17" />
+                                            </a>
+                                            <!-- Excel Export Icon -->
+                                            <a href="path/to/export.xlsx" class="export-icon excel-icon" title="Export as Excel" target="_blank">
+                                                <img src="/images/file-icons/icon-svg/icon-exel.svg" alt="Excel Icon" width="17" height="17" />
+                                            </a>
+                                            <!-- Print Icon -->
+                                            <a href="path/to/print" class="export-icon print-icon" title="Print" target="_blank">
+                                                <img src="/images/file-icons/icon-svg/icon-print.svg" alt="Print Icon" width="23" height="23" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Responsive Table -->
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-hover align-middle" id="ktgrTable">
+                                        <thead>
+                                            <tr>
+                                                <th>No</th>
+                                                <th>NP</th>
+                                                <th>Nama</th>
+                                                <th>Jabatan</th>
+                                                <th>No Kredit</th>
+                                                <th>Plafon Kredit</th>
+                                                <th>Effective Date</th>
+                                                <th class="text-center">Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>6274</td>
+                                                <td>NONENG SUANGSIH</td>
+                                                <td>Kepala Divisi Pengamanan, K3 dan Lingkungan</td>
+                                                <td>48959407001</td>
+                                                <td>Rp 50.000.000</td>
+                                                <td>2023-05-01</td>
+                                                <td class="text-center action-icons">
+                                                    <a href="#" class="text-primary me-2" title="Edit">
+                                                        <i class="fas fa-edit"></i>
+                                                    </a>
+                                                    <a href="#" class="text-danger" title="Delete">
+                                                        <i class="fas fa-trash-alt"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>6275</td>
+                                                <td>SUTRISNO</td>
+                                                <td>Manajer Operasional</td>
+                                                <td>48959407002</td>
+                                                <td>Rp 60.000.000</td>
+                                                <td>2023-05-02</td>
+                                                <td class="text-center action-icons">
+                                                    <a href="#" class="text-primary me-2" title="Edit">
+                                                        <i class="fas fa-edit"></i>
+                                                    </a>
+                                                    <a href="#" class="text-danger" title="Delete">
+                                                        <i class="fas fa-trash-alt"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>6276</td>
+                                                <td>RAHAYU</td>
+                                                <td>Supervisor Keuangan</td>
+                                                <td>48959407003</td>
+                                                <td>Rp 55.000.000</td>
+                                                <td>2023-05-03</td>
+                                                <td class="text-center action-icons">
+                                                    <a href="#" class="text-primary me-2" title="Edit">
+                                                        <i class="fas fa-edit"></i>
+                                                    </a>
+                                                    <a href="#" class="text-danger" title="Delete">
+                                                        <i class="fas fa-trash-alt"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>4</td>
+                                                <td>6277</td>
+                                                <td>ADI KUSUMA</td>
+                                                <td>Analis Kredit</td>
+                                                <td>48959407004</td>
+                                                <td>Rp 52.000.000</td>
+                                                <td>2023-05-04</td>
+                                                <td class="text-center action-icons">
+                                                    <a href="#" class="text-primary me-2" title="Edit">
+                                                        <i class="fas fa-edit"></i>
+                                                    </a>
+                                                    <a href="#" class="text-danger" title="Delete">
+                                                        <i class="fas fa-trash-alt"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>5</td>
+                                                <td>6278</td>
+                                                <td>MAWAR SARI</td>
+                                                <td>Asisten Manajer SDM</td>
+                                                <td>48959407005</td>
+                                                <td>Rp 45.000.000</td>
+                                                <td>2023-05-05</td>
+                                                <td class="text-center action-icons">
+                                                    <a href="#" class="text-primary me-2" title="Edit">
+                                                        <i class="fas fa-edit"></i>
+                                                    </a>
+                                                    <a href="#" class="text-danger" title="Delete">
+                                                        <i class="fas fa-trash-alt"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>6</td>
+                                                <td>6279</td>
+                                                <td>JOKO PRIYONO</td>
+                                                <td>Direktur Operasional</td>
+                                                <td>48959407006</td>
+                                                <td>Rp 65.000.000</td>
+                                                <td>2023-05-06</td>
+                                                <td class="text-center action-icons">
+                                                    <a href="#" class="text-primary me-2" title="Edit">
+                                                        <i class="fas fa-edit"></i>
+                                                    </a>
+                                                    <a href="#" class="text-danger" title="Delete">
+                                                        <i class="fas fa-trash-alt"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>7</td>
+                                                <td>6280</td>
+                                                <td>LINA WATI</td>
+                                                <td>Manajer Pemasaran</td>
+                                                <td>48959407007</td>
+                                                <td>Rp 48.500.000</td>
+                                                <td>2023-05-07</td>
+                                                <td class="text-center action-icons">
+                                                    <a href="#" class="text-primary me-2" title="Edit">
+                                                        <i class="fas fa-edit"></i>
+                                                    </a>
+                                                    <a href="#" class="text-danger" title="Delete">
+                                                        <i class="fas fa-trash-alt"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>8</td>
+                                                <td>6281</td>
+                                                <td>INDRA SAPUTRA</td>
+                                                <td>Staff Administrasi</td>
+                                                <td>48959407008</td>
+                                                <td>Rp 44.000.000</td>
+                                                <td>2023-05-08</td>
+                                                <td class="text-center action-icons">
+                                                    <a href="#" class="text-primary me-2" title="Edit">
+                                                        <i class="fas fa-edit"></i>
+                                                    </a>
+                                                    <a href="#" class="text-danger" title="Delete">
+                                                        <i class="fas fa-trash-alt"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>9</td>
+                                                <td>6282</td>
+                                                <td>FITRI YANTI</td>
+                                                <td>Koordinator Logistik</td>
+                                                <td>48959407009</td>
+                                                <td>Rp 53.000.000</td>
+                                                <td>2023-05-09</td>
+                                                <td class="text-center action-icons">
+                                                    <a href="#" class="text-primary me-2" title="Edit">
+                                                        <i class="fas fa-edit"></i>
+                                                    </a>
+                                                    <a href="#" class="text-danger" title="Delete">
+                                                        <i class="fas fa-trash-alt"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>10</td>
+                                                <td>6283</td>
+                                                <td>ARI WIJAYA</td>
+                                                <td>Supervisor Pengadaan</td>
+                                                <td>48959407010</td>
+                                                <td>Rp 51.000.000</td>
+                                                <td>2023-05-10</td>
+                                                <td class="text-center action-icons">
+                                                    <a href="#" class="text-primary me-2" title="Edit">
+                                                        <i class="fas fa-edit"></i>
+                                                    </a>
+                                                    <a href="#" class="text-danger" title="Delete">
+                                                        <i class="fas fa-trash-alt"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>11</td>
+                                                <td>6284</td>
+                                                <td>SARAH AMALIA</td>
+                                                <td>Manager HRD</td>
+                                                <td>48959407011</td>
+                                                <td>Rp 58.000.000</td>
+                                                <td>2023-05-11</td>
+                                                <td class="text-center action-icons">
+                                                    <a href="#" class="text-primary me-2" title="Edit">
+                                                        <i class="fas fa-edit"></i>
+                                                    </a>
+                                                    <a href="#" class="text-danger" title="Delete">
+                                                        <i class="fas fa-trash-alt"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>12</td>
+                                                <td>6285</td>
+                                                <td>USMAN ALI</td>
+                                                <td>Senior Analyst</td>
+                                                <td>48959407012</td>
+                                                <td>Rp 50.500.000</td>
+                                                <td>2023-05-12</td>
+                                                <td class="text-center action-icons">
+                                                    <a href="#" class="text-primary me-2" title="Edit">
+                                                        <i class="fas fa-edit"></i>
+                                                    </a>
+                                                    <a href="#" class="text-danger" title="Delete">
+                                                        <i class="fas fa-trash-alt"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>13</td>
+                                                <td>6286</td>
+                                                <td>MAYA SARI</td>
+                                                <td>Staf IT</td>
+                                                <td>48959407013</td>
+                                                <td>Rp 47.000.000</td>
+                                                <td>2023-05-13</td>
+                                                <td class="text-center action-icons">
+                                                    <a href="#" class="text-primary me-2" title="Edit">
+                                                        <i class="fas fa-edit"></i>
+                                                    </a>
+                                                    <a href="#" class="text-danger" title="Delete">
+                                                        <i class="fas fa-trash-alt"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>14</td>
+                                                <td>6287</td>
+                                                <td>DEWI AMBAR</td>
+                                                <td>Koordinator Keuangan</td>
+                                                <td>48959407014</td>
+                                                <td>Rp 54.000.000</td>
+                                                <td>2023-05-14</td>
+                                                <td class="text-center action-icons">
+                                                    <a href="#" class="text-primary me-2" title="Edit">
+                                                        <i class="fas fa-edit"></i>
+                                                    </a>
+                                                    <a href="#" class="text-danger" title="Delete">
+                                                        <i class="fas fa-trash-alt"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>15</td>
+                                                <td>6288</td>
+                                                <td>YULIANA WULANDARI</td>
+                                                <td>Asisten Analis Keuangan</td>
+                                                <td>48959407015</td>
+                                                <td>Rp 46.500.000</td>
+                                                <td>2023-05-15</td>
+                                                <td class="text-center action-icons">
+                                                    <a href="#" class="text-primary me-2" title="Edit">
+                                                        <i class="fas fa-edit"></i>
+                                                    </a>
+                                                    <a href="#" class="text-danger" title="Delete">
+                                                        <i class="fas fa-trash-alt"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>16</td>
+                                                <td>6289</td>
+                                                <td>PUTRI AMANDA</td>
+                                                <td>Direktur Pemasaran</td>
+                                                <td>48959407016</td>
+                                                <td>Rp 68.000.000</td>
+                                                <td>2023-05-16</td>
+                                                <td class="text-center action-icons">
+                                                    <a href="#" class="text-primary me-2" title="Edit">
+                                                        <i class="fas fa-edit"></i>
+                                                    </a>
+                                                    <a href="#" class="text-danger" title="Delete">
+                                                        <i class="fas fa-trash-alt"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>17</td>
+                                                <td>6290</td>
+                                                <td>RANI SUCI</td>
+                                                <td>Staff Operasional</td>
+                                                <td>48959407017</td>
+                                                <td>Rp 43.000.000</td>
+                                                <td>2023-05-17</td>
+                                                <td class="text-center action-icons">
+                                                    <a href="#" class="text-primary me-2" title="Edit">
+                                                        <i class="fas fa-edit"></i>
+                                                    </a>
+                                                    <a href="#" class="text-danger" title="Delete">
+                                                        <i class="fas fa-trash-alt"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>18</td>
+                                                <td>6291</td>
+                                                <td>BUDI HARTONO</td>
+                                                <td>Manager Logistik</td>
+                                                <td>48959407018</td>
+                                                <td>Rp 49.000.000</td>
+                                                <td>2023-05-18</td>
+                                                <td class="text-center action-icons">
+                                                    <a href="#" class="text-primary me-2" title="Edit">
+                                                        <i class="fas fa-edit"></i>
+                                                    </a>
+                                                    <a href="#" class="text-danger" title="Delete">
+                                                        <i class="fas fa-trash-alt"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>19</td>
+                                                <td>6292</td>
+                                                <td>RIA YULIANA</td>
+                                                <td>Koordinator Pemasaran</td>
+                                                <td>48959407019</td>
+                                                <td>Rp 55.500.000</td>
+                                                <td>2023-05-19</td>
+                                                <td class="text-center action-icons">
+                                                    <a href="#" class="text-primary me-2" title="Edit">
+                                                        <i class="fas fa-edit"></i>
+                                                    </a>
+                                                    <a href="#" class="text-danger" title="Delete">
+                                                        <i class="fas fa-trash-alt"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>20</td>
+                                                <td>6293</td>
+                                                <td>ANDIKA PUTRA</td>
+                                                <td>Analyst Data</td>
+                                                <td>48959407020</td>
+                                                <td>Rp 52.500.000</td>
+                                                <td>2023-05-20</td>
+                                                <td class="text-center action-icons">
+                                                    <a href="#" class="text-primary me-2" title="Edit">
+                                                        <i class="fas fa-edit"></i>
+                                                    </a>
+                                                    <a href="#" class="text-danger" title="Delete">
+                                                        <i class="fas fa-trash-alt"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <!-- Pagination -->
+                                <div class="d-flex justify-content-between align-items-center mt-4">
+                                    <div class="text-muted" id="showingText">
+                                        Showing 1 to 10 of 100 entries
+                                    </div>
+                                    <ul class="pagination pagination-sm mb-0">
+                                        <li class="page-item disabled">
+                                            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
+                          Previous
+                        </a>
+                                        </li>
+                                        <li class="page-item active" aria-current="page">
+                                            <a class="page-link" href="#">1</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#">2</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#">3</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#">Next</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- content-wrapper ends -->
+                <!-- partial:partials/_footer.html -->
+                <footer class="footer">
+                    <div class="d-sm-flex justify-content-center justify-content-sm-between">
+                        <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">
+                Premium
+                <a href="https://www.bootstrapdash.com/" target="_blank">
+                  Bootstrap admin template
+                </a>
+                from BootstrapDash.
+              </span>
+                        <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">
+                Copyright © 2021. All rights reserved.
+              </span>
+                    </div>
+                </footer>
+                <!-- partial -->
+            </div>
+            <!-- main-panel ends -->
+        </div>
+        <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+
+    <!-- plugins:js -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="../../vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <script src="../../vendors/chart.js/Chart.min.js"></script>
+    <script src="../../vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+    <script src="../../vendors/progressbar.js/progressbar.min.js"></script>
+
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="../../js/off-canvas.js"></script>
+    <script src="../../js/hoverable-collapse.js"></script>
+    <script src="../../js/template.js"></script>
+    <script src="../../js/settings.js"></script>
+    <script src="../../js/todolist.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page-->
+    <script src="../../js/dashboard.js"></script>
+    <script src="../../js/Chart.roundedBarCharts.js"></script>
+    <!-- End custom js for this page-->
+</body>
+
+</html>
