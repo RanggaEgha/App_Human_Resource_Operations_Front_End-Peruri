@@ -20,7 +20,3 @@ Front-end **statis** untuk modul *Human Resource Operations*. Disusun dengan **H
 - **SCSS terstruktur**: source di `scss/` → compile ke `css/`.
 - **Vendor assets**: pustaka pihak ketiga disimpan di `vendors/`.
 - **Build & Deploy**: Gulp tasks untuk kompilasi/minify; siap publikasi ke Netlify.
-
----
-
-## Struktur Proyek (ringkas)
